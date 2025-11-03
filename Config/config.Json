@@ -1,0 +1,16 @@
+{
+  "base_url": "https://www.saucedemo.com/",
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "sort_by": "az",
+  "checkout": {
+    "first_name": "Hila",
+    "last_name": "Dalal",
+    "zip_code": "123"
+  },
+   "Products": {
+     "Product_1": "Sauce Labs Backpack",
+     "Product_2": "Sauce Labs Fleece Jacket",
+     "Product_3": "Sauce Labs Onesie"
+  }
+}

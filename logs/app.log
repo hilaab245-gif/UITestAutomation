@@ -1,0 +1,147 @@
+2025-11-03 13:10:13,216 | INFO | Loaded config from config/config.json
+2025-11-03 13:10:13,217 | INFO | Initializing incognito Page
+2025-11-03 13:10:13,217 | INFO | Attempting to open Chrome browser
+2025-11-03 13:10:13,217 | INFO | ====== WebDriver manager ======
+2025-11-03 13:10:13,352 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 13:10:13,616 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 13:10:13,865 | INFO | Driver [/Users/hila/.wdm/drivers/chromedriver/mac64/141.0.7390.122/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-03 13:10:14,785 | INFO | PASS: start Chrome WebDriver successfully
+2025-11-03 13:10:14,786 | INFO | Attempting to navigate to URL: https://www.saucedemo.com/
+2025-11-03 13:10:15,314 | INFO | PASS: opened https://www.saucedemo.com/
+2025-11-03 13:10:15,314 | INFO | Wait until the field is present
+2025-11-03 13:10:15,453 | INFO | PASS: User successful type standard_user in Username field
+2025-11-03 13:10:15,453 | INFO | Wait until the field is present
+2025-11-03 13:10:15,499 | INFO | PASS: User successful type  in Password field
+2025-11-03 13:10:15,499 | INFO | Wait until the  field is present
+2025-11-03 13:10:15,543 | INFO | PASS: Clicked Login button successfully
+2025-11-03 13:10:15,570 | WARNING | Fail: Error message display Epic sadface: Password is required
+2025-11-03 13:10:15,575 | ERROR |  Error message display: Epic sadface: Password is required
+2025-11-03 14:21:57,107 | INFO | Loaded config from config/config.json
+2025-11-03 14:21:57,107 | INFO | Initializing incognito Page
+2025-11-03 14:21:57,107 | INFO | Attempting to open Chrome browser
+2025-11-03 14:21:57,107 | INFO | ====== WebDriver manager ======
+2025-11-03 14:21:57,235 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:21:57,665 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:21:57,931 | INFO | Driver [/Users/hila/.wdm/drivers/chromedriver/mac64/141.0.7390.122/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-03 14:21:58,870 | INFO | PASS: start Chrome WebDriver successfully
+2025-11-03 14:21:58,870 | INFO | Attempting to navigate to URL: https://www.saucedemo.com/
+2025-11-03 14:22:00,041 | INFO | PASS: opened https://www.saucedemo.com/
+2025-11-03 14:22:00,041 | INFO | Wait until the field is present
+2025-11-03 14:22:00,185 | INFO | PASS: User successful type standard_user in Username field
+2025-11-03 14:22:00,185 | INFO | Wait until the field is present
+2025-11-03 14:22:00,236 | INFO | PASS: User successful type secret_sauce in Password field
+2025-11-03 14:22:00,236 | INFO | Wait until the  field is present
+2025-11-03 14:22:00,286 | INFO | PASS: Clicked Login button successfully
+2025-11-03 14:22:10,606 | INFO | PASS: No error message display.
+2025-11-03 14:22:10,606 | INFO | check if the user move to next page 
+2025-11-03 14:22:10,629 | INFO | PASS: User moved to the next page successfully. Title: 'Products'
+2025-11-03 14:22:10,629 | INFO | Using existing WebDriver
+2025-11-03 14:22:10,630 | INFO | Extract from config products values: ['Sauce Labs Backpack', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie']
+2025-11-03 14:22:10,671 | INFO | Clicking button for item: add to cart
+2025-11-03 14:22:11,700 | INFO | Add to cart item from json file: Sauce Labs Backpack
+2025-11-03 14:22:11,795 | INFO | Clicking button for item: add to cart
+2025-11-03 14:22:12,823 | INFO | Add to cart item from json file: Sauce Labs Fleece Jacket
+2025-11-03 14:22:12,868 | INFO | Clicking button for item: add to cart
+2025-11-03 14:22:13,906 | INFO | Add to cart item from json file: Sauce Labs Onesie
+2025-11-03 14:22:13,907 | INFO | All requested items were added: {'Sauce Labs Backpack': '29.99', 'Sauce Labs Fleece Jacket': '49.99', 'Sauce Labs Onesie': '7.99'}
+2025-11-03 14:22:13,907 | INFO | sort by name or price-select_by_visible_text:
+2025-11-03 14:22:13,907 | INFO | sort the dropdown by text
+2025-11-03 14:22:13,986 | INFO | PASS: Dropdown selected to text successfully.
+2025-11-03 14:22:14,012 | INFO | Test.allTheThings() T-Shirt (Red)
+2025-11-03 14:22:14,012 | INFO | Sauce Labs Onesie
+2025-11-03 14:22:14,012 | INFO | Sauce Labs Fleece Jacket
+2025-11-03 14:22:14,012 | INFO | Sauce Labs Bolt T-Shirt
+2025-11-03 14:22:14,013 | INFO | Sauce Labs Bike Light
+2025-11-03 14:22:14,013 | INFO | Sauce Labs Backpack
+2025-11-03 14:22:14,013 | INFO | sort by name or price-select_by_visible_value:
+2025-11-03 14:22:14,013 | INFO | sort the dropdown by text
+2025-11-03 14:22:14,038 | INFO | PASS: Dropdown selected to value successfully.
+2025-11-03 14:22:14,061 | INFO | Sauce Labs Backpack
+2025-11-03 14:22:14,061 | INFO | Sauce Labs Bike Light
+2025-11-03 14:22:14,061 | INFO | Sauce Labs Bolt T-Shirt
+2025-11-03 14:22:14,061 | INFO | Sauce Labs Fleece Jacket
+2025-11-03 14:22:14,061 | INFO | Sauce Labs Onesie
+2025-11-03 14:22:14,061 | INFO | Test.allTheThings() T-Shirt (Red)
+2025-11-03 14:22:14,061 | INFO | adding 1 item to cart:
+2025-11-03 14:22:14,144 | INFO | PASS: The Sauce Labs Bolt T-Shirt was added to cart
+2025-11-03 14:22:14,208 | INFO | Removing 1 item from cart: Sauce Labs Bolt T-Shirt
+2025-11-03 14:22:14,289 | INFO | PASS: The item 'Sauce Labs Bolt T-Shirt' was removed from cart
+2025-11-03 14:22:14,289 | INFO | Calculate Total Product Sum
+2025-11-03 14:22:14,289 | INFO | PASS: The total price is 87.97 for item {'Sauce Labs Backpack': '29.99', 'Sauce Labs Fleece Jacket': '49.99', 'Sauce Labs Onesie': '7.99'}
+2025-11-03 14:22:14,289 | INFO | Using existing WebDriver
+2025-11-03 14:22:14,290 | INFO | Navigating to the Cart page
+2025-11-03 14:22:14,290 | INFO | Wait until the  field is present
+2025-11-03 14:22:14,318 | INFO | PASS: Clicked Cart button successfully
+2025-11-03 14:22:14,318 | INFO | Starting cart validation 
+2025-11-03 14:22:14,337 | INFO |  Found item: Sauce Labs Backpack
+2025-11-03 14:22:14,343 | INFO |  Found item: Sauce Labs Fleece Jacket
+2025-11-03 14:22:14,350 | INFO |  Found item: Sauce Labs Onesie
+2025-11-03 14:22:14,350 | INFO |  Item cart validation - success
+2025-11-03 14:22:14,350 | INFO | Wait until the  field is present
+2025-11-03 14:22:14,382 | INFO | PASS: Clicked Checkout button successfully
+2025-11-03 14:22:14,383 | INFO | check if the user move to next page 
+2025-11-03 14:22:14,391 | INFO | PASS: User moved to the next page successfully. Title: 'Checkout: Your Information'
+2025-11-03 14:22:14,392 | INFO | Using existing WebDriver
+2025-11-03 14:22:14,392 | INFO | Using existing WebDriver
+2025-11-03 14:22:14,392 | INFO | Wait until the  field is present
+2025-11-03 14:22:14,428 | INFO | PASS: Clicked cancel button  successfully
+2025-11-03 14:22:14,428 | INFO | Wait until the  field is present
+2025-11-03 14:22:14,457 | INFO | PASS: Clicked Checkout button successfully
+2025-11-03 14:22:14,458 | INFO | check if the user move to next page 
+2025-11-03 14:22:14,467 | INFO | PASS: User moved to the next page successfully. Title: 'Checkout: Your Information'
+2025-11-03 14:22:14,467 | INFO | Extract from config user checkout values: ['Hila', 'Dalal', '123']
+2025-11-03 14:22:14,467 | INFO | Wait until the field is present
+2025-11-03 14:22:14,516 | INFO | PASS: User successful type Hila in First Name field
+2025-11-03 14:22:14,516 | INFO | Wait until the field is present
+2025-11-03 14:22:14,558 | INFO | PASS: User successful type Dalal in Last Name field
+2025-11-03 14:22:14,558 | INFO | Wait until the field is present
+2025-11-03 14:22:14,605 | INFO | PASS: User successful type 123 in zipcode field
+2025-11-03 14:22:14,605 | INFO | Wait until the  field is present
+2025-11-03 14:22:14,641 | INFO | PASS: Clicked continue button  successfully
+2025-11-03 14:22:24,937 | INFO | PASS: No error message display.
+2025-11-03 14:22:24,937 | INFO | Using existing WebDriver
+2025-11-03 14:22:24,937 | INFO | check if the user move to next page 
+2025-11-03 14:22:24,947 | INFO | PASS: User moved to the next page successfully. Title: 'Checkout: Overview'
+2025-11-03 14:22:24,948 | INFO | Using existing WebDriver
+2025-11-03 14:22:24,948 | INFO | Starting cart validation 
+2025-11-03 14:22:24,965 | INFO |  Found item: Sauce Labs Backpack
+2025-11-03 14:22:24,974 | INFO |  Found item: Sauce Labs Fleece Jacket
+2025-11-03 14:22:24,981 | INFO |  Found item: Sauce Labs Onesie
+2025-11-03 14:22:24,981 | INFO |  Item cart validation - success
+2025-11-03 14:22:24,992 | INFO | Wait until the  field is present
+2025-11-03 14:22:25,031 | INFO | PASS: Clicked cancel checkout button successfully
+2025-11-03 14:22:25,036 | INFO | Wait until the  field is present
+2025-11-03 14:22:25,078 | INFO | PASS: Clicked Finish checkout button successfully
+2025-11-03 14:22:25,078 | INFO | check if the user move to next page 
+2025-11-03 14:22:25,085 | INFO | PASS: User moved to the next page successfully. Title: 'Checkout: Complete!'
+2025-11-03 14:22:25,096 | INFO | Order Complete
+2025-11-03 14:23:47,510 | INFO | Loaded config from config/config.json
+2025-11-03 14:23:47,510 | INFO | Initializing incognito Page
+2025-11-03 14:23:47,510 | INFO | Attempting to open Chrome browser
+2025-11-03 14:23:47,510 | INFO | ====== WebDriver manager ======
+2025-11-03 14:23:47,648 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:23:47,893 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:23:48,138 | INFO | Driver [/Users/hila/.wdm/drivers/chromedriver/mac64/141.0.7390.122/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-03 14:23:49,074 | ERROR | FAIL: Could not start Chrome WebDriver
+Traceback (most recent call last):
+  File "/Users/hila/Desktop/new ui pro/core/Base_page.py", line 41, in __init__
+    driver.maximize_window()
+AttributeError: 'NoneType' object has no attribute 'maximize_window'
+2025-11-03 14:23:49,075 | ERROR | Could not start Chrome WebDriver
+2025-11-03 14:24:01,815 | INFO | Loaded config from config/config.json
+2025-11-03 14:24:01,816 | INFO | Initializing incognito Page
+2025-11-03 14:24:01,816 | INFO | Attempting to open Chrome browser
+2025-11-03 14:24:01,816 | INFO | ====== WebDriver manager ======
+2025-11-03 14:24:01,954 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:24:02,199 | INFO | Get LATEST chromedriver version for google-chrome
+2025-11-03 14:24:02,438 | INFO | Driver [/Users/hila/.wdm/drivers/chromedriver/mac64/141.0.7390.122/chromedriver-mac-arm64/chromedriver] found in cache
+2025-11-03 14:24:03,598 | INFO | PASS: start Chrome WebDriver successfully
+2025-11-03 14:24:03,598 | INFO | Attempting to navigate to URL: https://www.saucedemo.com/
+2025-11-03 14:24:04,205 | INFO | PASS: opened https://www.saucedemo.com/
+2025-11-03 14:24:04,205 | INFO | Wait until the field is present
+2025-11-03 14:24:04,348 | INFO | PASS: User successful type standard_user in Username field
+2025-11-03 14:24:04,348 | INFO | Wait until the field is present
+2025-11-03 14:24:04,416 | INFO | PASS: User successful type secret_sauce in Password field
+2025-11-03 14:24:04,416 | INFO | Wait until the  field is present
+2025-11-03 14:24:04,468 | INFO | PASS: Clicked Login button successfully
+2025-11-03 14:24:06,539 | ERROR | 'NoneType' object has no attribute 'is_displayed'
